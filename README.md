@@ -4,7 +4,7 @@
 Extension built to introduce the element of time pressure while solving problems and is also packed with features to hide Difficulty levels and Acceptance rates
 <br><br><br><br><br><br><br><br>
 **Features:**
-1) Automatic Timer at top of every Problem set according to its difficulty level (Easy, medium or hard)
+1) Automatic Timer at top of Problem set according to its difficulty level (Easy, medium or hard)
 
 ![](https://github.com/Manteg-Singh/Productive-Leetcoding-Extension/blob/main/Screenshots/Problem%20Page/timer.png)
 
