@@ -1,0 +1,47 @@
+{
+    "name": "Productive Leetcoding",
+    "version": "0.0.1",
+    "manifest_version": 3,
+    "description": "Want to get same functionality of interviewbit in leetcode? Or wanna solve questions under time limit? Here you go!    Download our Productive Leetcoding Extension 🥵🙌",
+    
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": "/images/icon16.png",
+        "default_title": "Productive Leetcoding"
+    },
+    "icons": {
+        "128": "/images/icon128.png",
+        "48": "/images/icon48.png",
+        "16": "/images/icon16.png"
+    },
+
+    "content_scripts": [
+        {
+            "matches": [
+                "https://*.leetcode.com/*"
+            ],
+       
+            "js": [
+                "content-script.js"
+            ],
+            "css":["content.css"]
+        }
+    ],
+
+
+    
+    "host_permissions": [
+        "https://*.leetcode.com/*"
+      ],
+
+
+
+    "permissions": [
+        "activeTab",
+        "storage",
+        "notifications",
+        "tabs",
+        "scripting"
+    ]
+    
+}

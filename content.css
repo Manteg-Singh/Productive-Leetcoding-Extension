@@ -1,0 +1,5 @@
+
+/* div[role="table"] .border-b div div:nth-child(4),
+div[role="table"] div[role="rowgroup"] div div:nth-child(4) {
+    visibility: hidden;
+} */
