@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+   
+}
+body{
+    min-height: 100vh;
+    background-image:url(bg.jpg) ;
+    background-repeat: no-repeat;
+    display: flex;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    margin-top:35px;
+
+}
+a{
+    color: inherit;
+    text-decoration: none;
+}
+.details{
+    /* margin-top: 100px; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+
+.contactinfo{
+    color:#b538b9 ;
+    max-width: 500px;
+    line-height: 65px;
+    padding-left: 45px;
+    font-size: 1rem;
+    font-weight: 400;
+    padding-top: 58px;
+}
+.contactinfo i{
+    margin-right: 20px;
+    font-size: 1.5rem;
+}
+.form-details{
+    
+    max-width: 700px;
+    margin-right: 50px;
+}
+
+.contactinfo, .form-details{
+    flex: 1;
+}
+ h2{
+    color:#b538b9 ;
+    text-align:left;
+    font-size: 1.4rem;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+   
+}
+.form-details .texts{
+    background: rgb(138 122 159);
+    color:  rgb(34, 34, 34);
+    border: none;
+    font-size: 13px;
+    border-radius: 6px;
+    width: calc(50%-20px);
+    height: 45px;
+    padding: 12px;
+    opacity: 0.86;
+    box-shadow: 0px 5px 5px rgb(138 122 159);
+    margin-bottom: 15px;
+}
+.form-details .texts:first-child{
+    margin: 0px 15px 0px 0px;
+}
+.form-details textarea{
+    background: rgb(138 122 159);
+    color:  rgb(34, 34, 34);
+    border: none;
+    font-size: 13px;
+    padding: 12px;
+    border-radius: 6px;
+    width: 100%;
+    resize: none;
+    height: 300px;
+    opacity: 0.86;
+    box-shadow: 0px 5px 5px rgb(138 122 159);
+    margin-bottom: 15px;
+}
+
+.form-details .sendbutton{
+    float: right;
+    background:#833e88 ;
+    color: white;
+    transition: 0.2s;
+    width: 90px;
+    height: 30px;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 3px;
+    border-radius: 7px;
+    cursor: pointer;
+    text-transform: uppercase;
+
+}
+.form-details .sendbutton:hover{
+    background: #b538b9;
+}
